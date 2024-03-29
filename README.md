@@ -1,10 +1,12 @@
 # reactjsstudy
 what is dom 
 what is virtual dom
-  -- Reconciliation
-  -- React Fiber Algo
-  -- Diiffing Algo 
-  
+  -- Reconciliation /  -- Diiffing Algo 
+  -- React Fiber Algo - working algo 
+    -- Incremental Rendering:
+    -- Prioritization and Scheduling
+    -- Concurrency
+ 
 what is jsx
 explain how react js work 
 what is components
@@ -13,7 +15,7 @@ Hooks
  - useState
  - useEffect (with depandancy array)
  - useContext
- - userReducer
+ - useReducer
  - userMemo
  - userCallback
  - userRef
@@ -27,8 +29,14 @@ Higher Order Components  **imp
 Life Cycle Methods of Components 
 - Class Components 
   -- Mounting 
+     -- constructor(props):
+     -- componentDidMount():
   -- Updating 
+    -- shouldComponentUpdate(nextProps, nextState):
+    -- componentDidUpdate(prevProps, prevState, snapshot):
+
   -- Unmounting
+    -- componentWillUnmount
 
 State Management
  - State/Props
@@ -52,5 +60,5 @@ Lazy Loading
  -- Code Chunking 
  -- Suspense 
 
-
+What is <React.StrictMode>
 
